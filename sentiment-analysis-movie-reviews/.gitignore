@@ -12,8 +12,8 @@ __pycache__/
 vocab.txt
 config.json
 
-# Dataset (Evite subir arquivos de dados brutos muito grandes)
-*.docx
-*.csv
-*.xlsx
-EOF
+# Datasets grandes (mais de 50MB)
+# Comente ou remova as linhas abaixo se seus arquivos forem pequenos
+# *.docx
+# *.csv
+# *.xlsx
