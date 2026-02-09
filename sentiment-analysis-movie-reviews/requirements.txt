@@ -1,8 +1,21 @@
-torch
-transformers
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-gensim
+# Manipulação de dados
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+
+# Word Embeddings
+gensim>=4.3.0
+
+# Deep Learning / BERT
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.14.0
+
+# Visualização
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Processamento de texto
+regex>=2023.0.0
