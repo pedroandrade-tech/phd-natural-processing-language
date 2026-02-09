@@ -1,0 +1,19 @@
+# Jupyter e Python
+.ipynb_checkpoints
+__pycache__/
+*.py[cod]
+
+# NLP e Modelos (Arquivos grandes que o Git não suporta bem)
+*.pt
+*.bin
+*.safetensors
+*.model
+*.vector
+vocab.txt
+config.json
+
+# Dataset (Evite subir arquivos de dados brutos muito grandes)
+*.docx
+*.csv
+*.xlsx
+EOF
