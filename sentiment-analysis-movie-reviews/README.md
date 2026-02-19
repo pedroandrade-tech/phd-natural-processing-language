@@ -1,15 +1,15 @@
-# 🎬 Análise de Sentimentos em Reviews de Filmes
+# Análise de Sentimentos em Reviews de Filmes
 
 Projeto de Processamento de Linguagem Natural (PLN) para classificação de sentimentos em reviews do filme **"Babygirl" (2024)** utilizando diferentes técnicas de Machine Learning e Deep Learning.
 
-## 📋 Objetivo
+## Objetivo
 
 Implementar e comparar três abordagens para classificação binária de sentimentos:
 - **SVM + Bag of Words (BoW)**
 - **SVM + Word2Vec Embeddings**
 - **BERT (Fine-tuning)**
 
-## 📊 Dataset
+## Dataset
 
 - **Fonte:** Reviews extraídas do IMDB para o filme "Babygirl" (2024)
 - **Total de reviews:** 544
@@ -21,7 +21,7 @@ Implementar e comparar três abordagens para classificação binária de sentime
 | Negativo (0) | Notas 1-5 | 338 |
 | Positivo (1) | Notas 6-10 | 206 |
 
-## 🛠️ Metodologia
+## Metodologia
 
 ### 1. SVM + Bag of Words
 - Vetorização com `CountVectorizer`
@@ -41,7 +41,7 @@ Implementar e comparar três abordagens para classificação binária de sentime
 - Max length: 256 tokens
 - Batch size: 8
 
-## 📈 Resultados
+## Resultados
 
 ### Comparação Geral
 
@@ -71,11 +71,11 @@ SVM + BoW:           SVM + Word2Vec:       BERT:
 
 | Review | BoW | Word2Vec | BERT |
 |--------|-----|----------|------|
-| "This movie was absolutely amazing!" | ❌ Neg | ❌ Neg | ✅ Pos (70%) |
-| "Terrible film. Waste of time." | ✅ Neg | ✅ Neg | ✅ Neg (95%) |
+| "This movie was absolutely amazing!" |  Neg |  Neg |  Pos (70%) |
+| "Terrible film. Waste of time." |  Neg |  Neg |  Neg (95%) |
 | "It was okay, nothing special." | Neg | Neg | Pos (65%) |
 
-## 💡 Conclusões
+## Conclusões
 
 1. **Embeddings semânticos superam BoW:** Word2Vec e BERT tiveram desempenho ~12 pontos percentuais superior ao Bag of Words.
 
@@ -87,7 +87,7 @@ SVM + BoW:           SVM + Word2Vec:       BERT:
 
 5. **Trade-off:** BERT requer mais recursos computacionais (~1h de treino no Colab) mas oferece melhor equilíbrio entre as classes e generalização.
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Requisitos
 ```bash
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 2. Instale as dependências: `pip install -r requirements.txt`
 3. Ajuste os caminhos dos arquivos nos notebooks
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 sentiment-analysis-movie-reviews/
@@ -119,7 +119,7 @@ sentiment-analysis-movie-reviews/
     └── Projeto_01_Bert.ipynb                   # BERT Fine-tuning
 ```
 
-## 🔧 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python 3.10+
 - Scikit-learn
@@ -129,10 +129,10 @@ sentiment-analysis-movie-reviews/
 - Pandas / NumPy
 - Matplotlib / Seaborn
 
-## 👤 Autor
+## Autor
 
 **Pedro Fonseca de Andrade**
 
-## 📄 Licença
+## Licença
 
 Projeto desenvolvido para fins acadêmicos.
