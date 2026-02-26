@@ -17,3 +17,5 @@ config.json
 # *.docx
 # *.csv
 # *.xlsx
+
+echo "notebooks/results/" >> .gitignore
